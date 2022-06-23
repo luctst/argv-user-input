@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"name": "argv-user-input",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "Parse user input from CLI, no big config or API just a tiny function who return commands and options",
 	"exports": "lib/index.js",
 	"author": "luctst",
@@ -26,7 +26,20 @@
 	"ava": {
 		"cache": true
 	},
-	"keywords": [],
+	"keywords": [
+		"cli",
+		"npm",
+		"cli-tool",
+		"gitignore",
+		"input",
+		"cmd",
+		"console",
+		"helper",
+		"argv",
+		"bin",
+		"util",
+		"flags"
+	],
 	"scripts": {
 		"test": "ava --verbose ./test/*.js",
 		"test:watch": "ava --watch --verbose --fail-fast ./test/*.js",
